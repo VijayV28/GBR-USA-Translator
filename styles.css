@@ -62,22 +62,20 @@
     background-color: white;
     border: none;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
+    transition: all 0.2s ease 0s;
     cursor: pointer;
 }
 
 #btn-translate:hover{
     background-color: white;
     box-shadow: 0px 2px 2px var(--shadow-color);
-    transform: translateY(-2px);
+    transform: translateY(-1px);
 }
 
 #btn-translate:active{
-    transform: translateY(1.5px);
+    transform: translateY(1px);
     box-shadow: 0 1px var(--shadow-color);
 }
-
-
 
 
 /* Text Area */
@@ -88,6 +86,13 @@ textarea{
     width: 15rem;
      
 }
+
+/* Header */
+header ul{
+    text-align: center;
+    display: inline;
+}
+
 
 
 
