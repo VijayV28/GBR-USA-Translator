@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
 :root{
     --primary-color: #001b69;
     --secondary-color: #c9072a;
     --shadow-color: #666;
     --footer-color: #94a3b8;
+}
+
+body{
+    font-family: 'Space Mono', monospace;
 }
 
 /* #71717a */
@@ -77,6 +83,20 @@
     box-shadow: 0 1px var(--shadow-color);
 }
 
+.btns{
+    text-align: center;
+}
+
+.section-textarea{
+    text-align: center;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+
+
 
 /* Text Area */
 
@@ -88,11 +108,38 @@ textarea{
 }
 
 /* Header */
-header ul{
+header{
     text-align: center;
-    display: inline;
+    position: relative;
+    bottom: 3rem;
 }
 
+header ul{
+    padding-inline-start: 0px;
+}
+
+header h2{
+    line-height: 1.3
+}
+
+#flag-amr{
+    position: relative;
+    bottom: 6rem;
+    left: 10rem;
+
+}
+
+#flag-gbr{
+    position: relative;
+    top: 6.72rem;
+    right: 10rem;
+}
+
+#flag-amr, #flag-gbr{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
 
 
 
